@@ -30,7 +30,7 @@
 <meta property="og:description" content="Lecture 1 Welcome!第一个Lecture是cs61a(fa21)唯一一节没有视频的讲座，其主要内容是介绍课程结构，教授及TA的信息，及部分计算机科学的学科历史发展。忽略此lecture对后面知识部分的讲解并无影响，如想观看请访问2020版本lecture1。 Lecture 2 FunctionsExpressionExpression中文即为表达式，即包含值（value）和&amp;#x">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-05-12T15:05:42.997Z">
-<meta property="article:modified_time" content="2022-05-14T16:32:31.937Z">
+<meta property="article:modified_time" content="2022-05-14T16:54:12.496Z">
 <meta property="article:author" content="fr0m-scratch">
 <meta name="twitter:card" content="summary">
 
@@ -119,7 +119,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-1-Welcome"><span class="nav-number">1.</span> <span class="nav-text">Lecture 1 Welcome!</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-2-Functions"><span class="nav-number">2.</span> <span class="nav-text">Lecture 2 Functions</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Expression"><span class="nav-number">2.1.</span> <span class="nav-text">Expression</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Names%EF%BC%8CAssignment-and-User-Defined-Functions"><span class="nav-number">2.2.</span> <span class="nav-text">Names，Assignment, and User-Defined Functions</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Environment-Diagrams"><span class="nav-number">2.3.</span> <span class="nav-text">Environment Diagrams</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Define-Fuction"><span class="nav-number">2.4.</span> <span class="nav-text">Define Fuction</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-1-Welcome"><span class="nav-number">1.</span> <span class="nav-text">Lecture 1 Welcome!</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-2-Functions"><span class="nav-number">2.</span> <span class="nav-text">Lecture 2 Functions</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Expression"><span class="nav-number">2.0.1.</span> <span class="nav-text">Expression</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Names%EF%BC%8CAssignment-and-User-Defined-Functions"><span class="nav-number">2.0.2.</span> <span class="nav-text">Names，Assignment, and User-Defined Functions</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Environment-Diagrams"><span class="nav-number">2.0.3.</span> <span class="nav-text">Environment Diagrams</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Define-Fuction"><span class="nav-number">2.0.4.</span> <span class="nav-text">Define Fuction</span></a></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -217,7 +217,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-05-15 00:32:31" itemprop="dateModified" datetime="2022-05-15T00:32:31+08:00">2022-05-15</time>
+      <time title="Modified: 2022-05-15 00:54:12" itemprop="dateModified" datetime="2022-05-15T00:54:12+08:00">2022-05-15</time>
     </span>
 
   
@@ -227,7 +227,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>736</span>
+      <span>930</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -246,14 +246,15 @@
     
     <div class="post-body" itemprop="articleBody">
         <h2 id="Lecture-1-Welcome"><a href="#Lecture-1-Welcome" class="headerlink" title="Lecture 1 Welcome!"></a>Lecture 1 Welcome!</h2><p>第一个Lecture是cs61a(fa21)唯一一节没有视频的讲座，其主要内容是介绍课程结构，教授及TA的信息，及部分计算机科学的学科历史发展。忽略此lecture对后面知识部分的讲解并无影响，如想观看请访问<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=CoHCUimLmdM">2020版本lecture1</a>。</p>
-<h2 id="Lecture-2-Functions"><a href="#Lecture-2-Functions" class="headerlink" title="Lecture 2 Functions"></a>Lecture 2 Functions</h2><h3 id="Expression"><a href="#Expression" class="headerlink" title="Expression"></a>Expression</h3><p>Expression中文即为表达式，即包含值（value）和&#x2F;或运算符，并可以求得值的组合。如：1是一个值，它就等于1；2+3包含值和运算符，并可以求得它们的值等于5。</p>
+<h2 id="Lecture-2-Functions"><a href="#Lecture-2-Functions" class="headerlink" title="Lecture 2 Functions"></a>Lecture 2 Functions</h2><h4 id="Expression"><a href="#Expression" class="headerlink" title="Expression"></a>Expression</h4><p>Expression中文即为表达式，即包含值（value）和&#x2F;或运算符，并可以求得值的组合。如：1是一个值，它就等于1；2+3包含值和运算符，并可以求得它们的值等于5。</p>
 <p>Call expression是一种组合表达式，意思是将表达式带入到函数当中。对于evaluate call expression最重要的一点就是要记住永远先算运算值（Operand）。</p>
-<h3 id="Names，Assignment-and-User-Defined-Functions"><a href="#Names，Assignment-and-User-Defined-Functions" class="headerlink" title="Names，Assignment, and User-Defined Functions"></a>Names，Assignment, and User-Defined Functions</h3><blockquote>
+<h4 id="Names，Assignment-and-User-Defined-Functions"><a href="#Names，Assignment-and-User-Defined-Functions" class="headerlink" title="Names，Assignment, and User-Defined Functions"></a>Names，Assignment, and User-Defined Functions</h4><blockquote>
 <p>Assignment 是一个把值（value）绑定给名字（names）的过程，而functions 是一个把表达式（expression）和名字（names）绑定的过程。</p>
 </blockquote>
 <p>Environment像一个档案室（memory）把这些绑定记录下来。</p>
-<h3 id="Environment-Diagrams"><a href="#Environment-Diagrams" class="headerlink" title="Environment Diagrams"></a>Environment Diagrams</h3><p>Environment Diagrams就是档案室（menory）的一个个档案盒（frame），它每次会展现这个档案盒里所有的绑定。</p>
-<h3 id="Define-Fuction"><a href="#Define-Fuction" class="headerlink" title="Define Fuction"></a>Define Fuction</h3><p>每次当我们自定义一个函数（Define Function）时，我们就在大档案盒里（parent frame）创建了一个小档案盒（child frame）<br>当我们使用这个函数的时候（call expression）我们会把值（value）放在它所在档案盒（current frame）里运算。</p>
+<h4 id="Environment-Diagrams"><a href="#Environment-Diagrams" class="headerlink" title="Environment Diagrams"></a>Environment Diagrams</h4><p>Environment Diagrams就是档案室（menory）的一个个档案盒（frame），它每次会展现这个档案盒里所有的绑定。</p>
+<h4 id="Define-Fuction"><a href="#Define-Fuction" class="headerlink" title="Define Fuction"></a>Define Fuction</h4><p>每次当我们自定义一个函数（Define Function）时，我们就在大档案盒里（parent frame）创建了一个小档案盒（child frame）<br>当我们使用这个函数的时候（call expression）我们会把值（value）放在它所在档案盒（current frame）里运算。</p>
+<p>写在第一课结尾的一些话：<br>学习cs61a的你可能有一点点或者没有编程的基础，面对多如牛毛的概念和定义，感觉到有些势不可挡无法招架，甚至一个定义里的一些名词就是另外一个新的定义，不知无从学起。不过不用担心，这是学习计算机的必经之路，大家初学之时，因为知识没有形成体系，彼此之间没有形成关联，所以感觉繁杂难懂。假以时日，厚积薄发，当你学完cs61a之时，虽前路依然漫漫，但手中的火把却已经点燃。</p>
 
     </div>
 
