@@ -555,7 +555,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-05-13 23:26:11" itemprop="dateModified" datetime="2022-05-13T23:26:11+08:00">2022-05-13</time>
+      <time title="Modified: 2022-05-15 00:32:31" itemprop="dateModified" datetime="2022-05-15T00:32:31+08:00">2022-05-15</time>
     </span>
 
   
@@ -565,7 +565,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>154</span>
+      <span>736</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -583,8 +583,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="Lecture-1-Welcome"><a href="#Lecture-1-Welcome" class="headerlink" title="Lecture 1 Welcome!"></a>Lecture 1 Welcome!</h2><p>第一个Lecture是cs61a(fa21)唯一一节没有视频的讲座，其主要内容是介绍课程结构，教授及TA的信息，及部分计算机科学的学科历史发展。忽略此lecture对后面知识部分的讲解并无影响，如确实想观看请访问<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=CoHCUimLmdM">2020版本lecture1</a>。</p>
-<h2 id="Lecture-2-Functions"><a href="#Lecture-2-Functions" class="headerlink" title="Lecture 2 Functions"></a>Lecture 2 Functions</h2>
+          <h2 id="Lecture-1-Welcome"><a href="#Lecture-1-Welcome" class="headerlink" title="Lecture 1 Welcome!"></a>Lecture 1 Welcome!</h2><p>第一个Lecture是cs61a(fa21)唯一一节没有视频的讲座，其主要内容是介绍课程结构，教授及TA的信息，及部分计算机科学的学科历史发展。忽略此lecture对后面知识部分的讲解并无影响，如想观看请访问<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=CoHCUimLmdM">2020版本lecture1</a>。</p>
+<h2 id="Lecture-2-Functions"><a href="#Lecture-2-Functions" class="headerlink" title="Lecture 2 Functions"></a>Lecture 2 Functions</h2><h3 id="Expression"><a href="#Expression" class="headerlink" title="Expression"></a>Expression</h3><p>Expression中文即为表达式，即包含值（value）和&#x2F;或运算符，并可以求得值的组合。如：1是一个值，它就等于1；2+3包含值和运算符，并可以求得它们的值等于5。</p>
+<p>Call expression是一种组合表达式，意思是将表达式带入到函数当中。对于evaluate call expression最重要的一点就是要记住永远先算运算值（Operand）。</p>
+<h3 id="Names，Assignment-and-User-Defined-Functions"><a href="#Names，Assignment-and-User-Defined-Functions" class="headerlink" title="Names，Assignment, and User-Defined Functions"></a>Names，Assignment, and User-Defined Functions</h3><blockquote>
+<p>Assignment 是一个把值（value）绑定给名字（names）的过程，而functions 是一个把表达式（expression）和名字（names）绑定的过程。</p>
+</blockquote>
+<p>Environment像一个档案室（memory）把这些绑定记录下来。</p>
+<h3 id="Environment-Diagrams"><a href="#Environment-Diagrams" class="headerlink" title="Environment Diagrams"></a>Environment Diagrams</h3><p>Environment Diagrams就是档案室（menory）的一个个档案盒（frame），它每次会展现这个档案盒里所有的绑定。</p>
+<h3 id="Define-Fuction"><a href="#Define-Fuction" class="headerlink" title="Define Fuction"></a>Define Fuction</h3><p>每次当我们自定义一个函数（Define Function）时，我们就在大档案盒里（parent frame）创建了一个小档案盒（child frame）<br>当我们使用这个函数的时候（call expression）我们会把值（value）放在它所在档案盒（current frame）里运算。</p>
+
       
     </div>
 
