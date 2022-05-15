@@ -213,7 +213,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-05-15 19:43:37" itemprop="dateModified" datetime="2022-05-15T19:43:37+08:00">2022-05-15</time>
+      <time title="Modified: 2022-05-16 02:05:56" itemprop="dateModified" datetime="2022-05-16T02:05:56+08:00">2022-05-16</time>
     </span>
 
   
@@ -223,7 +223,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>326</span>
+      <span>367</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -252,6 +252,7 @@
 <li>点击导航栏的Lab来查看Lab solutions及部分难题解析</li>
 <li>点击导航栏的HW来查看homework solutions及部分难题解析</li>
 <li>点击导航栏的projects来查看课程项目的具体成果</li>
+<li>用ctrl + f(windows)或command + f(mac)来查找页面上的内容。</li>
 </ul>
 <p>本网站所用一切课程资料版权均为加州大学伯克利分校计算机系所有。</p>
 
@@ -472,7 +473,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-05-13 23:22:14" itemprop="dateModified" datetime="2022-05-13T23:22:14+08:00">2022-05-13</time>
+      <time title="Modified: 2022-05-16 02:20:21" itemprop="dateModified" datetime="2022-05-16T02:20:21+08:00">2022-05-16</time>
     </span>
 
   
@@ -482,7 +483,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>57</span>
+      <span>1.2k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -501,6 +502,7 @@
     
     <div class="post-body" itemprop="articleBody">
           <h2 id="Lab00"><a href="#Lab00" class="headerlink" title="Lab00"></a>Lab00</h2><p>Lab00可以看做是一个环境搭建的教程，但同时也光速带过了一些基础的python和terminal知识。</p>
+<h2 id="Lab01"><a href="#Lab01" class="headerlink" title="Lab01"></a>Lab01</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">falling</span>(<span class="params">n, k</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Compute the falling factorial of n to depth k.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    &gt;&gt;&gt; falling(6, 3)  # 6 * 5 * 4</span></span><br><span class="line"><span class="string">    120</span></span><br><span class="line"><span class="string">    &gt;&gt;&gt; falling(4, 3)  # 4 * 3 * 2</span></span><br><span class="line"><span class="string">    24</span></span><br><span class="line"><span class="string">    &gt;&gt;&gt; falling(4, 1)  # 4</span></span><br><span class="line"><span class="string">    4</span></span><br><span class="line"><span class="string">    &gt;&gt;&gt; falling(4, 0)</span></span><br><span class="line"><span class="string">    1</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="string">&quot;*** YOUR CODE HERE ***&quot;</span></span><br><span class="line">    result = <span class="number">1</span></span><br><span class="line">    <span class="keyword">while</span> k &gt; <span class="number">0</span>:</span><br><span class="line">        result, n, k = result*n, n-<span class="number">1</span>, k-<span class="number">1</span></span><br><span class="line">    <span class="keyword">return</span> result</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">sum_digits</span>(<span class="params">y</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Sum all the digits of y.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    &gt;&gt;&gt; sum_digits(10) # 1 + 0 = 1</span></span><br><span class="line"><span class="string">    1</span></span><br><span class="line"><span class="string">    &gt;&gt;&gt; sum_digits(4224) # 4 + 2 + 2 + 4 = 12</span></span><br><span class="line"><span class="string">    12</span></span><br><span class="line"><span class="string">    &gt;&gt;&gt; sum_digits(1234567890)</span></span><br><span class="line"><span class="string">    45</span></span><br><span class="line"><span class="string">    &gt;&gt;&gt; a = sum_digits(123) # make sure that you are using return rather than print</span></span><br><span class="line"><span class="string">    &gt;&gt;&gt; a</span></span><br><span class="line"><span class="string">    6</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="string">&quot;*** YOUR CODE HERE ***&quot;</span></span><br><span class="line">    <span class="built_in">sum</span> = <span class="number">0</span></span><br><span class="line">    <span class="keyword">while</span> y &gt; <span class="number">0</span>:</span><br><span class="line">        <span class="built_in">sum</span>, y = <span class="built_in">sum</span> + y%<span class="number">10</span>, y//<span class="number">10</span></span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">sum</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">double_eights</span>(<span class="params">n</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Return true if n has two eights in a row.</span></span><br><span class="line"><span class="string">    &gt;&gt;&gt; double_eights(8)</span></span><br><span class="line"><span class="string">    False</span></span><br><span class="line"><span class="string">    &gt;&gt;&gt; double_eights(88)</span></span><br><span class="line"><span class="string">    True</span></span><br><span class="line"><span class="string">    &gt;&gt;&gt; double_eights(2882)</span></span><br><span class="line"><span class="string">    True</span></span><br><span class="line"><span class="string">    &gt;&gt;&gt; double_eights(880088)</span></span><br><span class="line"><span class="string">    True</span></span><br><span class="line"><span class="string">    &gt;&gt;&gt; double_eights(12345)</span></span><br><span class="line"><span class="string">    False</span></span><br><span class="line"><span class="string">    &gt;&gt;&gt; double_eights(80808080)</span></span><br><span class="line"><span class="string">    False</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="string">&quot;*** YOUR CODE HERE ***&quot;</span></span><br><span class="line">    <span class="keyword">while</span> n &gt;= <span class="number">88</span>:</span><br><span class="line">        <span class="keyword">if</span> n % <span class="number">100</span> == <span class="number">88</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line">        n = n // <span class="number">10</span></span><br><span class="line">    <span class="keyword">return</span> <span class="literal">False</span></span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -555,7 +557,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-05-15 19:42:41" itemprop="dateModified" datetime="2022-05-15T19:42:41+08:00">2022-05-15</time>
+      <time title="Modified: 2022-05-16 01:51:44" itemprop="dateModified" datetime="2022-05-16T01:51:44+08:00">2022-05-16</time>
     </span>
 
   
@@ -565,14 +567,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>930</span>
+      <span>2.1k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
+      <span>2 mins.</span>
     </span>
 </div>
 
@@ -593,6 +595,23 @@
 <h4 id="Environment-Diagrams"><a href="#Environment-Diagrams" class="headerlink" title="Environment Diagrams"></a>Environment Diagrams</h4><p>Environment Diagrams就是档案室（menory）的一个个档案盒（frame），它每次会展现这个档案盒里所有的绑定。</p>
 <h4 id="Define-Fuction"><a href="#Define-Fuction" class="headerlink" title="Define Fuction"></a>Define Fuction</h4><p>每次当我们自定义一个函数（Define Function）时，我们就在大档案盒里（parent frame）创建了一个小档案盒（child frame）<br>当我们使用这个函数的时候（call expression）我们会把值（value）放在它所在档案盒（current frame）里运算。</p>
 <p>写在第一课结尾的一些话：<br>学习cs61a的你可能有一点点或者没有编程的基础，面对多如牛毛的概念和定义，感觉到有些势不可挡无法招架，甚至一个定义里的一些名词就是另外一个新的定义，不知无从学起。不过不用担心，这是学习计算机的必经之路，大家初学之时，因为知识没有形成体系，彼此之间没有形成关联，所以感觉繁杂难懂。假以时日，厚积薄发，当你学完cs61a之时，虽前路依然漫漫，但手中的火把却已经点燃。</p>
+<h2 id="Lecture-3-Control"><a href="#Lecture-3-Control" class="headerlink" title="Lecture 3 Control"></a>Lecture 3 Control</h2><h4 id="Print-and-None"><a href="#Print-and-None" class="headerlink" title="Print and None"></a>Print and None</h4><p>None 在python当中表示这个值没有任何定义，即没有东西（Nothing）。</p>
+<p>Pure functions就像数学里的函数一样，给它一个值，它就只会返回给你一个值（这个值可以为None）。而None-pure functions，除了返回给你一个值（可以为None）以外，它还会干一些其他的事情，比如打印（print）。注意：不要因为print返回的值为None，就忽略了作为一个函数（function）本身的工作–输出一个与输入的值相对应的值。</p>
+<h4 id="Multiple-Environments"><a href="#Multiple-Environments" class="headerlink" title="Multiple Environments"></a>Multiple Environments</h4><p>每次当我们使用（call）一个方法（function）时我们就会创建一个新的小档案盒（frame），即使我们使用了同一个方法（fucntion）两次，我们也会创建两个不同的小档案盒（frame）。</p>
+<h4 id="Miscellaneous-Python-Features"><a href="#Miscellaneous-Python-Features" class="headerlink" title="Miscellaneous Python Features"></a>Miscellaneous Python Features</h4><p>docstring就是一个注释解释这个函数（fucntion）是干什么的。docstring里面包含的doctests，特别的举例出，当我们应用这个函数（function）时，会有什么样的效果或者返回值（return value）。</p>
+<h4 id="Conditional-Statements"><a href="#Conditional-Statements" class="headerlink" title="Conditional Statements"></a>Conditional Statements</h4><p>statement就是执行某项任务的一个代码语句。compound statement就是一个包含其他语句（statement）的语句（statement）。在conditional statement里面，最终只会有一个选项（suite）被执行。</p>
+<p>在Python中，False value 包含：False，0，“ ”（空的string），None。其余的值均为真（true）。</p>
+<h4 id="Iteration"><a href="#Iteration" class="headerlink" title="Iteration"></a>Iteration</h4><p>iteration就是一个循环，它会首先判断这个循环是否满足一个特定的条件（这个条件是自己定义的），如果满足循环则开始，每一次循环结束的时候它会返回开头，再重新判断是否满足条件，如满足，循环继续，反之，循环终止。</p>
+<h2 id="Higher-Order-Functions"><a href="#Higher-Order-Functions" class="headerlink" title="Higher-Order Functions"></a>Higher-Order Functions</h2><h4 id="Design-Functions"><a href="#Design-Functions" class="headerlink" title="Design Functions"></a>Design Functions</h4><p>函数（fucntion）的domain就是函数的定义域，即自变量可以是什么值；函数（fucntion）的range就是函数的值域，即函数的因变量可能是什么。</p>
+<p>Professor John DeNero给出的设计函数（function）三原则：</p>
+<blockquote>
+<ul>
+<li>给每个函数exactly一个工作</li>
+<li>不要重复定义一个同样的东西，因为一个函数可以被执行无数次</li>
+<li>定义的不同函数时，要遵循一个同样的标准</li>
+</ul>
+</blockquote>
+<h4 id="Higher-Order-Fucntions"><a href="#Higher-Order-Fucntions" class="headerlink" title="Higher-Order Fucntions"></a>Higher-Order Fucntions</h4><p>高阶函数（higher-order function）的指它的的输出值（return value）或&#x2F;和 输入值（arguemnt）包含另一个函数的函数。在课上的例子中，教授用高阶函数来归纳一些列有相同作用的函数。</p>
 
       
     </div>
@@ -632,13 +651,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Symbols count total">1k</span>
+    <span title="Symbols count total">4k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">1 mins.</span>
+    <span title="Reading time total">3 mins.</span>
   </span>
 </div>
 
