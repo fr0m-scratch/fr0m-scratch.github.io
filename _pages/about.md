@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.nyu.edu'>New York University</a> \n Those who ripen swiftly may find the harvest of true wisdom delayed.
+subtitle: <a href='https://www.nyu.edu'>New York University</a>  
 
 profile:
   align: right
@@ -16,6 +16,7 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
+Those who ripen swiftly may find the harvest of true wisdom delayed.
 
 I am a Junior at New York University, majoring in Computer Science and Mathematics. I am interested in the intersection of computer systems and data-intensive infrastructures, particularly in the context of distributed systems and cloud computing. 
 
