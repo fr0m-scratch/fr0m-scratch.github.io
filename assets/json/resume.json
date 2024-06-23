@@ -22,8 +22,8 @@
       "url": "https://ssl.engineering.nyu.edu/",
       "startDate": "2024-04-01",
       "endDate": "PRESENT",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "summary": "Building and Maintaining gittuf, a security layer of git in Go, under Open Source Security Foundation in collaboration with git community members as well as developers outside NYU.",
+      "highlights": ["gittuf"]
     }
   ],
   "education": [

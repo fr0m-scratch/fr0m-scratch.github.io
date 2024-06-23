@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 3
+title: ML-ArchDASH
 description: ML-ArchDASH
 img: assets/img/archDASH.png
 redirect: https://ml-archdash.github.io/
