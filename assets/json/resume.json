@@ -17,6 +17,16 @@
   },
   "work": [
     {
+      "name": "eunomia-BPF, Google Summer of Code",
+      "position": "Open Source Developer",
+      "url": "https://summerofcode.withgoogle.com/programs/2024/projects/1s5DrKHb",
+      "startDate": "2024-05-01",
+      "endDate": "PRESENT",
+      "summary": "Livepatching ClickHouse with eBPF and io_uring",
+      "highlights": ["System Programming", "io_uring", "eBPF", "Linux Kernel"]
+    },
+
+    {
       "name": "Secure Systems Lab, New York University",
       "position": "Research Assistant",
       "url": "https://ssl.engineering.nyu.edu/",
@@ -24,6 +34,15 @@
       "endDate": "PRESENT",
       "summary": "Building and Maintaining gittuf, a security layer of git in Go, under Open Source Security Foundation in collaboration with git community members as well as developers outside NYU.",
       "highlights": ["gittuf"]
+    },
+    {
+      "name": "East China Electric Power Design Institute, Shanghai, China",
+      "position": "Software Engineer Intern",
+      "url": "",
+      "startDate": "2023-07-01",
+      "endDate": "2023-08-31",
+      "summary": "Developed a Python automation framework to parse CAD files using the OpenCV and PyTesseract libraries, extracting geometric features and annotations for data matching, shortening an hour-long manual extraction process to 20 seconds",
+      "highlights": ["CI/CD and Automation"]
     }
   ],
   "education": [
