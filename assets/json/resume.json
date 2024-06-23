@@ -13,9 +13,7 @@
       "city": "Brooklyn",
       "countryCode": "US",
       "region": "NYC"
-    },
-    "profiles": [
-    ]
+    }
   },
   "work": [
     {
@@ -24,11 +22,8 @@
       "url": "https://ssl.engineering.nyu.edu/",
       "startDate": "2024-04",
       "endDate": "Present",
-      "summary": "",
       "highlights": ["gittuf"]
     }
-  ],
-  "volunteer": [
   ],
   "education": [
     {
@@ -42,8 +37,6 @@
       "score": "",
       "courses": []
     }
-  ],
-  "awards": [
   ],
   "certificates": [
     {
@@ -63,8 +56,6 @@
       "summary": ""
     }
   ],
-  "skills": [
-  ],
   "languages": [
     {
       "language": "English",
@@ -75,15 +66,6 @@
       "language": "Chinese",
       "fluency": "Native speaker",
       "icon": ""
-    }
-  ],
-  "interests": [
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
   "projects": []
