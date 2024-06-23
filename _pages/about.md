@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.nyu.edu/'>New York University</a> \n Those who ripen swiftly may find the harvest of true wisdom delayed.
+subtitle: <a href='https://www.nyu.edu'>New York University</a> \n Those who ripen swiftly may find the harvest of true wisdom delayed.
 
 profile:
   align: right
