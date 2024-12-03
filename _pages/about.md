@@ -18,6 +18,4 @@ social: false # includes social icons at the bottom of the page
 ---
 Those who ripen swiftly may find the harvest of true wisdom delayed.
 
-I am a Junior at New York University, majoring in Computer Science and Mathematics. I am interested in the intersection of computer systems and data-intensive infrastructures, particularly in the context of distributed systems and cloud computing. 
-
-You can call me Jamal, 曹政(My Chinese Name), or Sloth(树懒).
+I am a final year computer science student at New York University. 
