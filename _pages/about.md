@@ -18,4 +18,4 @@ social: false # includes social icons at the bottom of the page
 ---
 Those who ripen swiftly may find the harvest of true wisdom delayed.
 
-I am a final year computer science student at New York University. 
+Hi there! I am Jamal, a curious undergrad who wants to build secure, efficient, reliable, sustainable, and scalable systems.
