@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://fr0m-scratch.github.io/sitemap.xml
