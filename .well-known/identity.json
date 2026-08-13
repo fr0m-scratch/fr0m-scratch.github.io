@@ -1,0 +1,15 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://jamalcao.me/#person",
+  "name": "Jamal Cao (Zheng Cao)",
+  "alternateName": ["Zheng Cao", "Zheng (Jamal) Cao", "曹政", "贾马尔·曹"],
+  "url": "https://jamalcao.me/",
+  "orcid": "https://orcid.org/0009-0005-5055-5690",
+  "sameAs": [
+    "https://orcid.org/0009-0005-5055-5690",
+    "https://github.com/fr0m-scratch",
+    "https://github.com/Humanity-s-Last-Frontier",
+    "https://humanitylf.com/"
+  ]
+}
